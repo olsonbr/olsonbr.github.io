@@ -168,10 +168,10 @@ footer a:hover{
 
 .column{
 float: left;
-display:block;
+display:inline-block;
 background-color: rgba(255,255,255,1);
 width:33.3333%;
-min-width: 450px;
+min-width: 426px;
 height: 400px;
 margin: 2%,2%,0%,2%;
 padding: 2%,0%;
@@ -259,7 +259,7 @@ display: none;
 }
 
 @media only screen and (min-width:1280px) {
-.container {width: 1800px;} 
+.container {max-width: 1800px;} 
 }
 
 @media only screen and (max-width:1279px) {
